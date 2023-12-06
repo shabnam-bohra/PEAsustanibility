@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    min-height: 10vh;
+    min-height: 100%;
+    background-image: url(green\ bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    
+    background: linear-gradient(rgba(255, 255, 255, 0.788),rgba(255, 255, 255, 0.788));
+    display: flex;
+    padding: 0% 3%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 250; 
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8 12;
+    position: relative;
+}
+.nav-links ul li a{
+    color: rgb(46, 66, 53);
+    text-decoration: solid;
+    font-size: 24;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0;
+    height: 4;
+    background-color: rgb(34, 92, 46);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 90;
+}
+.text-box{
+    width: 90%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 60;
+    color: #ffffff;
+}
+.text-box p{
+    font-size: 25;
+    font-weight:400 ;
+    color: #ffffff;
+}
+.middle{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    color: #2b4b36;
+    font-size: 50px;
+    font-weight: 600;
+}
+p{
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 20px;
+
+}
+.row{
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.middle-col{
+    flex-basis: 31%;
+    background: #88aa94;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.middle-col img{
+    width: 250;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    font-size: 30;
+}
+.middle-col:hover{
+    box-shadow: 0 0 50px 0 rgba(1, 73, 31, 0.644);
+}
+.end p{
+    color: #2b4b36;
+}
+
+/*-----INITIATIVES------*/
+
+.sub-header{
+    min-height: 10vh;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.bg{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.ini{
+    margin: 90px 0;
+    background-image: url(infrastructure.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 5%;
+}
+.ini h3{
+    font-size: 50px;
+    line-height: 2;
+    color: rgb(15, 2, 70);
+    text-align: center;
+}
+.ini p{
+    font-size: 30px;
+    color: #192c81;
+    font-weight:450;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.ini2{
+    margin: 80px 0;
+    background-image: url(C.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 5%;
+}
+.ini2 h3{
+    font-size: 50px;
+    line-height: 2;
+    color: rgb(15, 2, 70);
+    text-align: center;
+}
+.ini2 p{
+    font-size: 30px;
+    color: #192c81;
+    font-weight:450;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.ini3{
+    margin: 80px 0;
+    background-image: url(e.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 5%;
+}
+.ini3 h3{
+    font-size: 50px;
+    line-height: 2;
+    color: rgb(15, 2, 70);
+    text-align: center;
+}
+.ini3 p{
+    font-size: 30px;
+    color: #192c81;
+    font-weight:450;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.ini4{
+    margin: 80px 0;
+    background-image: url(n.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 5%;
+}
+.ini4 h3{
+    font-size: 50px;
+    line-height: 2;
+    color: rgb(15, 2, 70);
+    text-align: center;
+}
+.ini4 p{
+    font-size: 30px;
+    color: #192c81;
+    font-weight:450;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.ini5{
+    margin: 80px 0;
+    background-image: url(G.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 5%;
+}
+.ini5 h3{
+    font-size: 50px;
+    line-height: 2;
+    color: rgb(15, 2, 70);
+    text-align: center;
+}
+.ini5 p{
+    font-size: 30px;
+    color: #192c81;
+    font-weight:450;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.ini6{
+    margin: 80px 0;
+    background-image: url(f.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 5%;
+}
+.ini6 h3{
+    font-size: 50px;
+    line-height: 2;
+    color: rgb(15, 2, 70);
+    text-align: center;
+}
+.ini6 p{
+    font-size: 30px;
+    color: #192c81;
+    font-weight:450;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.ini7{
+    margin: 80px 0;
+    background-image: url(.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 5%;
+}
+.ini7 h3{
+    font-size: 50px;
+    line-height: 2;
+    color: rgb(15, 2, 70);
+    text-align: center;
+}
+.ini7 p{
+    font-size: 30px;
+    color: #192c81;
+    font-weight:450;
+    margin: 10px;
+    text-align: center;
+
+}
+.initiatives{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.initiatives h1{
+    color: #2b4b36;
+    font-size: 50px;
+    font-weight: 600;
+}
+.initiatives p{
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 20px;
+}
+
+/*------ABOUT------*/
+.sub-header{
+    min-height: 10vh;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.sdg{
+    display: grid;
+    grid-template-columns: repeat(auto, minmax(200px, 1fr));
+    grid-gap: 30px;
+}
+.sdg div img{
+    margin: 6%;
+    width: 20%;
+    border-radius: 10px;
+}
+
+/*-------cop28---------*/
+.sub-header1{
+    min-height: 10vh;
+    min-height: 100%;
+    background-image: url(cop28.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.conference{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    color: #2b4b36;
+    font-size: 50px;
+    font-weight: 600;
+}
+p{
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 20px;
+}
+a{
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 20px;
+}
+iframe{
+    align-items: center;
+    margin: 8%;
+}
+.week{
+    margin: 1%;
+    align-items: center;
+}
+.img{
+    margin: 1%;
+}
+.school{
+    margin: 2%
+}
